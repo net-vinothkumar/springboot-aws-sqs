@@ -1,0 +1,13 @@
+server:
+  port: 9002
+  
+cloud:
+  aws:
+    region:
+      static: us-east-2
+      auto: false
+    credentials:
+      access-key: <ACCESSKEY>
+      secret-key: <SECRETKEY>
+    end-point:
+      uri: https://sqs.us-east-2.amazonaws.com/830989773543/springboot-sqs
