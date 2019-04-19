@@ -8,6 +8,9 @@ messages while waiting for the end system to process it
 ### What Is Amazon Simple Queue Service?
 Amazon Simple Queue Service (Amazon SQS) offers a secure, durable, and available hosted queue that lets you integrate and decouple distributed software systems and components. 
 
+![sqs_seo_queue 1dc710b63346bef869ee34b8a9a76abc014fbfc9](https://user-images.githubusercontent.com/30971809/56431023-bfa8c200-62c8-11e9-8341-3977cc6789bf.png)
+
+
 ### When to use SQS ?
 SQS is a great way to decouple services, especially when there is a lot of heavy-duty, batch-oriented processing required.
 For example, let's say people would like to order food from McDonalds, people use the ordering system, order the food and get the token number, behind the scene the customer order will be processed and delivered once its ready.This entire process is asynchronous and decoupled.
