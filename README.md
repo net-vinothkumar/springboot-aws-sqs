@@ -15,6 +15,9 @@ Amazon Simple Queue Service (Amazon SQS) offers a secure, durable, and available
 SQS is a great way to decouple services, especially when there is a lot of heavy-duty, batch-oriented processing required.
 For example, let's say people would like to order food from McDonalds, people use the ordering system, order the food and get the token number, behind the scene the customer order will be processed and delivered once its ready.This entire process is asynchronous and decoupled.
 
+<img width="1276" alt="Screen Shot 2019-04-19 at 17 21 51" src="https://user-images.githubusercontent.com/30971809/56431072-e8c95280-62c8-11e9-8c21-a38fa6fdfceb.png">
+
+
 
 ### What Are the Main Benefits of Amazon SQS?
 Security – You control who can send messages to and receive messages from an Amazon SQS queue.
